@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+  div.modal-content {
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    margin:0px;
+    border-radius: 0px;
+    border:none;
+  }
+  div.modal-dialog {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    max-width:100%;
+    margin:0px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  div.catBox{
+    width:100%;
+    display:block;
+    padding: 3px;
+    color: #333;
+    height: 70px;
+    border-bottom: 1px solid grey;
+    line-height: normal;
+  }
+
+  div.catBox .catLabel{
+    background-color: inherit;
+    margin-left: 72px;
+    height: 70px;
+    padding:0px;
+    top: 0px;
+  }
+
+  div.catBox .catLabel .catHelpLabel{
+    position: absolute;
+    top: 50px;
+    opacity: 1;
+  }
+
+  .catThumb{
+    width: 64px;
+    height: 64px;
+  }
+}

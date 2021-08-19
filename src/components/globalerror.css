@@ -1,0 +1,22 @@
+.global-error-container{
+  max-width: 800px;
+  margin: auto;
+  padding-top: 20px;
+  position: relative;
+  height: 100%;
+}
+
+.error-header{
+  color: #d14545;
+}
+
+.error-btn-container-right{
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+}
+
+.error-btn{
+  color: #d14545;
+  padding: 10px;
+}
